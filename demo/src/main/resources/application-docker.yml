@@ -1,0 +1,14 @@
+server:
+  port: ${BILGE_SERVER_PORT}
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/Ornek
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      format_sql: true

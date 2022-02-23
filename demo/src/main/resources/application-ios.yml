@@ -1,0 +1,2 @@
+server:
+  port: ${BILGE_SERVER_PORT}
